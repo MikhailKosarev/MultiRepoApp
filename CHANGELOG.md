@@ -13,3 +13,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `.gitignore` file to lists all of the files that are local to a project that Git should not push to GitHub.
 - Initial Xcode project with customized conifguration.
 - SwiftLint with custom rules as the run script to the build phase.
+- Add `README.md` with the description of the app.
