@@ -14,6 +14,7 @@
 		744162ED2A019D0F00A6154E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744162EC2A019D0F00A6154E /* Assets.xcassets */; };
 		744162F02A019D0F00A6154E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744162EE2A019D0F00A6154E /* LaunchScreen.storyboard */; };
 		744162FB2A019D0F00A6154E /* MultiRepoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744162FA2A019D0F00A6154E /* MultiRepoAppTests.swift */; };
+		744163172A01B2E500A6154E /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744163162A01B2E500A6154E /* APIEndpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		744162F12A019D0F00A6154E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		744162F62A019D0F00A6154E /* MultiRepoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiRepoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		744162FA2A019D0F00A6154E /* MultiRepoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiRepoAppTests.swift; sourceTree = "<group>"; };
+		744163162A01B2E500A6154E /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				744162EC2A019D0F00A6154E /* Assets.xcassets */,
 				744162EE2A019D0F00A6154E /* LaunchScreen.storyboard */,
 				744162F12A019D0F00A6154E /* Info.plist */,
+				744163152A01B2B000A6154E /* NetworkLayer */,
 			);
 			path = MultiRepoApp;
 			sourceTree = "<group>";
@@ -95,6 +98,14 @@
 				744162FA2A019D0F00A6154E /* MultiRepoAppTests.swift */,
 			);
 			path = MultiRepoAppTests;
+			sourceTree = "<group>";
+		};
+		744163152A01B2B000A6154E /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				744163162A01B2E500A6154E /* APIEndpoint.swift */,
+			);
+			path = NetworkLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +235,7 @@
 				744162E82A019D0E00A6154E /* ViewController.swift in Sources */,
 				744162E42A019D0E00A6154E /* AppDelegate.swift in Sources */,
 				744162E62A019D0E00A6154E /* SceneDelegate.swift in Sources */,
+				744163172A01B2E500A6154E /* APIEndpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
