@@ -19,6 +19,7 @@
 		740B87402A02A8FF00868977 /* RepositorySearchDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B873F2A02A8FF00868977 /* RepositorySearchDelegateProtocol.swift */; };
 		740B87422A02AB8300868977 /* RepositoryListTableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B87412A02AB8300868977 /* RepositoryListTableViewSection.swift */; };
 		740B87452A02B1B300868977 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B87442A02B1B300868977 /* Builder.swift */; };
+		740B87472A02B1D900868977 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B87462A02B1D900868977 /* ModuleBuilder.swift */; };
 		744162E42A019D0E00A6154E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744162E32A019D0E00A6154E /* AppDelegate.swift */; };
 		744162E62A019D0E00A6154E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744162E52A019D0E00A6154E /* SceneDelegate.swift */; };
 		744162E82A019D0E00A6154E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744162E72A019D0E00A6154E /* ViewController.swift */; };
@@ -54,6 +55,7 @@
 		740B873F2A02A8FF00868977 /* RepositorySearchDelegateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositorySearchDelegateProtocol.swift; sourceTree = "<group>"; };
 		740B87412A02AB8300868977 /* RepositoryListTableViewSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryListTableViewSection.swift; sourceTree = "<group>"; };
 		740B87442A02B1B300868977 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		740B87462A02B1D900868977 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
 		744162E02A019D0E00A6154E /* MultiRepoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiRepoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		744162E32A019D0E00A6154E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		744162E52A019D0E00A6154E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				740B87442A02B1B300868977 /* Builder.swift */,
+				740B87462A02B1D900868977 /* ModuleBuilder.swift */,
 			);
 			path = Builder;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 				740B872C2A0256F000868977 /* RepositoryListPresenterProtocol.swift in Sources */,
 				744162E42A019D0E00A6154E /* AppDelegate.swift in Sources */,
 				740B87422A02AB8300868977 /* RepositoryListTableViewSection.swift in Sources */,
+				740B87472A02B1D900868977 /* ModuleBuilder.swift in Sources */,
 				744162E62A019D0E00A6154E /* SceneDelegate.swift in Sources */,
 				740B87262A02534B00868977 /* BitBucketRepositories.swift in Sources */,
 				740B87332A02573500868977 /* RepositoryListViewController.swift in Sources */,
