@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Added
+
+- Network layer consisting of:
+    - `NetworkManager` for handling network requests and responses.
+    - `NetworkError` representing the possible error that can occur during network communication.
+    - `API endpoints` representing the available API endpoints.
+
+## [0.1.0] - 2023-05-02
+
 ### Added
 
 - This CHANGELOG file to hopefully serve as an evolving example of a standardized open source project CHANGELOG.
