@@ -155,6 +155,15 @@
 			path = Builder;
 			sourceTree = "<group>";
 		};
+		740B87482A02B3C500868977 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				744162E32A019D0E00A6154E /* AppDelegate.swift */,
+				744162E52A019D0E00A6154E /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		744162D72A019D0E00A6154E = {
 			isa = PBXGroup;
 			children = (
@@ -176,8 +185,7 @@
 		744162E22A019D0E00A6154E /* MultiRepoApp */ = {
 			isa = PBXGroup;
 			children = (
-				744162E32A019D0E00A6154E /* AppDelegate.swift */,
-				744162E52A019D0E00A6154E /* SceneDelegate.swift */,
+				740B87482A02B3C500868977 /* Application */,
 				744162E72A019D0E00A6154E /* ViewController.swift */,
 				744162E92A019D0E00A6154E /* Main.storyboard */,
 				744162EC2A019D0F00A6154E /* Assets.xcassets */,
