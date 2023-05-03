@@ -76,6 +76,37 @@
 			path = CommonModel;
 			sourceTree = "<group>";
 		};
+		740B87272A02564D00868977 /* RepositoryListModule */ = {
+			isa = PBXGroup;
+			children = (
+				740B872A2A02569D00868977 /* Model */,
+				740B87292A02569900868977 /* View */,
+				740B87282A02569300868977 /* Presenter */,
+			);
+			path = RepositoryListModule;
+			sourceTree = "<group>";
+		};
+		740B87282A02569300868977 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		740B87292A02569900868977 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		740B872A2A02569D00868977 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		744162D72A019D0E00A6154E = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +135,7 @@
 				744162EC2A019D0F00A6154E /* Assets.xcassets */,
 				744162EE2A019D0F00A6154E /* LaunchScreen.storyboard */,
 				744162F12A019D0F00A6154E /* Info.plist */,
+				740B87272A02564D00868977 /* RepositoryListModule */,
 				740B87222A0251E000868977 /* CommonModel */,
 				744163152A01B2B000A6154E /* NetworkLayer */,
 			);
