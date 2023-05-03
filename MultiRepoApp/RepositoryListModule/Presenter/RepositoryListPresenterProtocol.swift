@@ -24,6 +24,6 @@ protocol RepositoryListPresenterProtocol: AnyObject {
     func getRepositories()
 
     /// Filters the list of repositories based on a search text.
-    /// - Parameter searchText: searchText: The search text to filter the repositories by.
+    /// - Parameter searchText: The search text to filter the repositories by.
     func filterRepositoriesStarting(with searchText: String)
 }
