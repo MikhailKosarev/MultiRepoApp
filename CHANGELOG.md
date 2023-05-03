@@ -20,6 +20,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `RepositoryListPresenterProtocol` implementation.
 - `RepositoryListPresenter` implementation.
 - Icons of GitHub and BitBucket for the assets.
+- `RepositoryTableViewCell` implementation.
+- `SearchTableViewCell` implementation.
+- `RepositorySearchDelegateProtocol` implementation.
 
 ## [0.1.0] - 2023-05-02
 
