@@ -7,6 +7,35 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2023-05-03
+
+- ### Added
+
+- Network layer consisting of:
+    - `NetworkManager` for handling network requests and responses.
+    - `NetworkError` representing the possible error that can occur during network communication.
+    - `API endpoints` representing the available API endpoints.
+- Common models `BitBucketRepositories` and `GitHubRepository` to parse data from the API in them.
+- `RepositoryListModule` folder with MVP structure and general empty files inside.
+- `RepositoryTableViewCellData` implementation.
+- `RepositoryListViewProtocol` implementation.
+- `RepositoryListPresenterProtocol` implementation.
+- `RepositoryListPresenter` implementation.
+- Icons of GitHub and BitBucket for the assets.
+- `RepositoryTableViewCell` implementation.
+- `SearchTableViewCell` implementation.
+- `RepositorySearchDelegateProtocol` implementation.
+- `RepositoryListViewController` implementation.
+- `RepositoryListTableViewSection` implementation.
+- `Builder` protocol implementation.
+- `ModuleBuilder` implementation.
+
+### Changed
+- Directory structure to group all the remain files
+- `Main` Storyboard to programmatic UI `RepositoryListViewController`
+
+## [0.1.0] - 2023-05-02
+
 ### Added
 
 - This CHANGELOG file to hopefully serve as an evolving example of a standardized open source project CHANGELOG.
