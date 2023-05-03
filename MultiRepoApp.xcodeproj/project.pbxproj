@@ -164,9 +164,6 @@
 			isa = PBXGroup;
 			children = (
 				744162E22A019D0E00A6154E /* MultiRepoApp */,
-				744162EC2A019D0F00A6154E /* Assets.xcassets */,
-				744162EE2A019D0F00A6154E /* LaunchScreen.storyboard */,
-				744162F12A019D0F00A6154E /* Info.plist */,
 				744162F92A019D0F00A6154E /* MultiRepoAppTests */,
 				744162E12A019D0E00A6154E /* Products */,
 			);
@@ -189,6 +186,9 @@
 				740B87272A02564D00868977 /* RepositoryListModule */,
 				740B87222A0251E000868977 /* CommonModel */,
 				744163152A01B2B000A6154E /* NetworkLayer */,
+				744162EC2A019D0F00A6154E /* Assets.xcassets */,
+				744162EE2A019D0F00A6154E /* LaunchScreen.storyboard */,
+				744162F12A019D0F00A6154E /* Info.plist */,
 			);
 			path = MultiRepoApp;
 			sourceTree = "<group>";
@@ -510,7 +510,6 @@
 				INFOPLIST_FILE = MultiRepoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -541,7 +540,6 @@
 				INFOPLIST_FILE = MultiRepoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
