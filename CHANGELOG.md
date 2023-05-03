@@ -28,6 +28,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `Builder` protocol implementation.
 - `ModuleBuilder` implementation.
 
+### Changed
+- Directory structure to group all the remain files
+- `Main` Storyboard to programmatic UI `RepositoryListViewController`
+
 ## [0.1.0] - 2023-05-02
 
 ### Added
