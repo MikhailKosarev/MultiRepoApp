@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - `NetworkError` representing the possible error that can occur during network communication.
     - `API endpoints` representing the available API endpoints.
 - Common models `BitBucketRepositories` and `GitHubRepository` to parse data from the API in them.
+- `RepositoryListModule` folder with MVP structure and general empty files inside.
 
 ## [0.1.0] - 2023-05-02
 
