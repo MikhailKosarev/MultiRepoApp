@@ -18,6 +18,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `RepositoryTableViewCellData` implementation.
 - `RepositoryListViewProtocol` implementation.
 - `RepositoryListPresenterProtocol` implementation.
+- `RepositoryListPresenter` implementation.
+- Icons of GitHub and BitBucket for the assets.
 
 ## [0.1.0] - 2023-05-02
 
