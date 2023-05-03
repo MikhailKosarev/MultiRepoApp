@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		740B87242A02520300868977 /* GitHubRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B87232A02520300868977 /* GitHubRepository.swift */; };
 		740B87262A02534B00868977 /* BitBucketRepositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B87252A02534B00868977 /* BitBucketRepositories.swift */; };
+		740B872C2A0256F000868977 /* RepositoryListPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B872B2A0256F000868977 /* RepositoryListPresenterProtocol.swift */; };
+		740B872E2A02570600868977 /* RepositoryListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B872D2A02570600868977 /* RepositoryListPresenter.swift */; };
+		740B87312A02571F00868977 /* RepositoryListViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B87302A02571F00868977 /* RepositoryListViewProtocol.swift */; };
+		740B87332A02573500868977 /* RepositoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B87322A02573500868977 /* RepositoryListViewController.swift */; };
+		740B87352A02575000868977 /* RepositoryViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B87342A02575000868977 /* RepositoryViewData.swift */; };
 		744162E42A019D0E00A6154E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744162E32A019D0E00A6154E /* AppDelegate.swift */; };
 		744162E62A019D0E00A6154E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744162E52A019D0E00A6154E /* SceneDelegate.swift */; };
 		744162E82A019D0E00A6154E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744162E72A019D0E00A6154E /* ViewController.swift */; };
@@ -34,6 +39,11 @@
 /* Begin PBXFileReference section */
 		740B87232A02520300868977 /* GitHubRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubRepository.swift; sourceTree = "<group>"; };
 		740B87252A02534B00868977 /* BitBucketRepositories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitBucketRepositories.swift; sourceTree = "<group>"; };
+		740B872B2A0256F000868977 /* RepositoryListPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListPresenterProtocol.swift; sourceTree = "<group>"; };
+		740B872D2A02570600868977 /* RepositoryListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListPresenter.swift; sourceTree = "<group>"; };
+		740B87302A02571F00868977 /* RepositoryListViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListViewProtocol.swift; sourceTree = "<group>"; };
+		740B87322A02573500868977 /* RepositoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListViewController.swift; sourceTree = "<group>"; };
+		740B87342A02575000868977 /* RepositoryViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryViewData.swift; sourceTree = "<group>"; };
 		744162E02A019D0E00A6154E /* MultiRepoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiRepoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		744162E32A019D0E00A6154E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		744162E52A019D0E00A6154E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +99,8 @@
 		740B87282A02569300868977 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				740B872B2A0256F000868977 /* RepositoryListPresenterProtocol.swift */,
+				740B872D2A02570600868977 /* RepositoryListPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -96,6 +108,8 @@
 		740B87292A02569900868977 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				740B87302A02571F00868977 /* RepositoryListViewProtocol.swift */,
+				740B87322A02573500868977 /* RepositoryListViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -103,6 +117,7 @@
 		740B872A2A02569D00868977 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				740B87342A02575000868977 /* RepositoryViewData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -284,13 +299,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740B87312A02571F00868977 /* RepositoryListViewProtocol.swift in Sources */,
+				740B872E2A02570600868977 /* RepositoryListPresenter.swift in Sources */,
 				7441631B2A01B4D700A6154E /* NetworkManager.swift in Sources */,
 				744162E82A019D0E00A6154E /* ViewController.swift in Sources */,
+				740B872C2A0256F000868977 /* RepositoryListPresenterProtocol.swift in Sources */,
 				744162E42A019D0E00A6154E /* AppDelegate.swift in Sources */,
 				744162E62A019D0E00A6154E /* SceneDelegate.swift in Sources */,
 				740B87262A02534B00868977 /* BitBucketRepositories.swift in Sources */,
+				740B87332A02573500868977 /* RepositoryListViewController.swift in Sources */,
 				744163172A01B2E500A6154E /* APIEndpoint.swift in Sources */,
 				740B87242A02520300868977 /* GitHubRepository.swift in Sources */,
+				740B87352A02575000868977 /* RepositoryViewData.swift in Sources */,
 				744163192A01B3DE00A6154E /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
