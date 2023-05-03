@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		740B87242A02520300868977 /* GitHubRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B87232A02520300868977 /* GitHubRepository.swift */; };
+		740B87262A02534B00868977 /* BitBucketRepositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B87252A02534B00868977 /* BitBucketRepositories.swift */; };
 		744162E42A019D0E00A6154E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744162E32A019D0E00A6154E /* AppDelegate.swift */; };
 		744162E62A019D0E00A6154E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744162E52A019D0E00A6154E /* SceneDelegate.swift */; };
 		744162E82A019D0E00A6154E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744162E72A019D0E00A6154E /* ViewController.swift */; };
@@ -30,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		740B87232A02520300868977 /* GitHubRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubRepository.swift; sourceTree = "<group>"; };
+		740B87252A02534B00868977 /* BitBucketRepositories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitBucketRepositories.swift; sourceTree = "<group>"; };
 		744162E02A019D0E00A6154E /* MultiRepoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiRepoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		744162E32A019D0E00A6154E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		744162E52A019D0E00A6154E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		740B87222A0251E000868977 /* CommonModel */ = {
+			isa = PBXGroup;
+			children = (
+				740B87232A02520300868977 /* GitHubRepository.swift */,
+				740B87252A02534B00868977 /* BitBucketRepositories.swift */,
+			);
+			path = CommonModel;
+			sourceTree = "<group>";
+		};
 		744162D72A019D0E00A6154E = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +104,7 @@
 				744162EC2A019D0F00A6154E /* Assets.xcassets */,
 				744162EE2A019D0F00A6154E /* LaunchScreen.storyboard */,
 				744162F12A019D0F00A6154E /* Info.plist */,
+				740B87222A0251E000868977 /* CommonModel */,
 				744163152A01B2B000A6154E /* NetworkLayer */,
 			);
 			path = MultiRepoApp;
@@ -242,7 +256,9 @@
 				744162E82A019D0E00A6154E /* ViewController.swift in Sources */,
 				744162E42A019D0E00A6154E /* AppDelegate.swift in Sources */,
 				744162E62A019D0E00A6154E /* SceneDelegate.swift in Sources */,
+				740B87262A02534B00868977 /* BitBucketRepositories.swift in Sources */,
 				744163172A01B2E500A6154E /* APIEndpoint.swift in Sources */,
+				740B87242A02520300868977 /* GitHubRepository.swift in Sources */,
 				744163192A01B3DE00A6154E /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
