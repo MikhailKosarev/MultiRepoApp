@@ -15,6 +15,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - `API endpoints` representing the available API endpoints.
 - Common models `BitBucketRepositories` and `GitHubRepository` to parse data from the API in them.
 - `RepositoryListModule` folder with MVP structure and general empty files inside.
+- `RepositoryTableViewCellData` implementation.
+- `RepositoryListViewProtocol` implementation.
+- `RepositoryListPresenterProtocol` implementation.
 
 ## [0.1.0] - 2023-05-02
 
